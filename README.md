@@ -33,7 +33,6 @@ flowchart LR
     D --> F[Assignment-time feature snapshot]
     F --> G[NODE / Tabular Transformer]
     G --> H[Predicted ETA residual]
-    H --> I[Corrected drop-off ETA]
 ```
 
 ## Optimization layer
