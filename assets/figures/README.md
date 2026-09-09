@@ -6,7 +6,7 @@ Only manually cleared figures intended for portfolio use belong in this director
 
 The current portfolio includes one representative result figure showing reconstructed drop-off ETA performance.
 
-<img width="1452" height="1276" alt="heatmap_test_pred_vs_actual_trip_time_5s" src="https://github.com/user-attachments/assets/4fdaeca1-342e-485e-91ce-6b661fcd1979" />
+<img width="726" height="638" alt="heatmap_test_pred_vs_actual_trip_time_5s" src="https://github.com/user-attachments/assets/4fdaeca1-342e-485e-91ce-6b661fcd1979" />
 
 **Reconstructed drop-off ETA performance.**  
 The model does not predict total trip time directly. It predicts the post-assignment ETA residual, defined as the difference between the realised drop-off ETA and the planner ETA available at assignment.
