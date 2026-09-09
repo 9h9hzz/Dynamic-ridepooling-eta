@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local settings
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Notebooks
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Data: keep documentation and explicitly synthetic samples only
+data/*
+!data/README.md
+!data/sample/
+!data/sample/**
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.mat
+*.npy
+*.npz
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.jsonl
+!data/sample/*.csv
+!data/sample/*.jsonl
+
+# Large network and routing artifacts
+*Shortest*Path*
+*Shortest*Walk*
+*ArcsMatrix*
+*Requests*
+*Vehicles*
+
+# Models, training outputs, and experiment artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+checkpoints/
+artifacts/
+results/
+Results/
+runs/
+wandb/
+mlruns/
+gurobi.log
+*.sol
+*.lp
+*.mps
+
+# Papers, slides, and private working documents
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+private/
+private_preview/
+submission/
+review_materials/
+
+# Keep only manually cleared public figures
+assets/figures/*
+!assets/figures/README.md
+!assets/figures/*.svg
+!assets/figures/public-*.png
