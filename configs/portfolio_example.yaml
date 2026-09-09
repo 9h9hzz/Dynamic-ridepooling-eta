@@ -1,0 +1,17 @@
+simulation:
+  decision_epoch_seconds: 15
+  horizon_seconds: 600
+  random_seed: 42
+
+service_constraints:
+  vehicle_capacity: 4
+  maximum_wait_seconds: 300
+  maximum_delay_seconds: 600
+
+prediction:
+  target: eta_residual_seconds
+  model: tabular_transformer
+  split_strategy: by_simulation_day
+
+# This is a sanitized demonstration configuration, not the full experiment setup.
+
