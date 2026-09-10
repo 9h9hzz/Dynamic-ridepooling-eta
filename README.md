@@ -1,6 +1,6 @@
-# Dynamic Ridepooling: Assignment and ETA Residual Prediction
+# Post-Assignment ETA Residual Prediction in Dynamic Ridepooling
 
-> A publication-safe portfolio edition of a master's research project in dynamic ridepooling, operations research, and machine learning.
+> A sanitized portfolio edition of a master's research project in dynamic ridepooling, operations research, and machine learning.
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Gurobi](https://img.shields.io/badge/Optimization-Gurobi-EE3524)](https://www.gurobi.com/)
@@ -61,17 +61,11 @@ Only information available at assignment is used. The research feature families 
 
 NODE is the primary tabular model. A compact Transformer encoder is used as a comparison model for learning interactions among numeric assignment-time features.
 
-## Selected high-level findings
+## Research focus
 
-To protect the manuscript while it remains under review, this portfolio reports trends rather than full tables or final figure sets:
+The study evaluates whether post-assignment ETA deviations can be predicted from information available at the time of assignment, and examines how prediction behaviour changes across fleet configurations and model architectures.
 
-- assignment-time shareability exposure is consistently informative for later ETA revisions;
-- moderate residual changes are easier to anticipate than rare, large deviations;
-- NODE and the tabular Transformer show broadly similar performance;
-- model transfer is asymmetric across fleet policies;
-- training on heterogeneous fleet conditions gives more consistent cross-fleet behaviour.
-
-Exact metrics, complete transfer matrices, ablation results, model checkpoints, and manuscript figures are intentionally withheld.
+Detailed experimental results are withheld while the associated manuscript remains under review.
 
 
 ## Quick start
