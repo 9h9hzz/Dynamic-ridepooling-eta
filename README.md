@@ -98,7 +98,6 @@ The associated manuscript is under review. This repository is designed for portf
 - unpublished ablations and manuscript-ready figures;
 - third-party source trees copied into the research workspace.
 
-See [`docs/PUBLIC_RELEASE_CHECKLIST.md`](docs/PUBLIC_RELEASE_CHECKLIST.md) before making the repository public.
 
 ## Responsible release
 
