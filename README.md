@@ -73,25 +73,6 @@ To protect the manuscript while it remains under review, this portfolio reports 
 
 Exact metrics, complete transfer matrices, ablation results, model checkpoints, and manuscript figures are intentionally withheld.
 
-## Repository structure
-
-```text
-.
-├── assets/figures/        # Cleared portfolio figures only
-├── configs/               # Sanitized experiment configuration
-├── data/                  # Data policy and optional synthetic samples
-├── docs/                  # Publication-safety and release checklists
-├── notebooks/             # Optional portfolio walkthroughs
-├── src/
-│   ├── simulation/        # Rolling-horizon control flow
-│   ├── optimization/      # Gurobi trip-vehicle selection example
-│   ├── features/          # Residual target and feature contracts
-│   ├── models/            # Public model components
-│   └── evaluation/        # Evaluation interfaces
-├── tests/
-├── .gitignore
-└── requirements.txt
-```
 
 ## Quick start
 
